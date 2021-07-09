@@ -66,5 +66,5 @@ form.addEventListener('submit', (e) => {
     msg.style.display = 'block';
     setTimeout(() => {
         msg.style.display = 'none';
-    }, 2000);
+    }, 1200);
 });

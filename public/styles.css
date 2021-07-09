@@ -1,6 +1,14 @@
 body {
-    background: #f7cfee;
+    background: #968f94;
     font-family: ubuntu;
+     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(
+        90deg,
+        #edfffe,
+        rgb(251, 251, 253)
+    );
+    background-repeat: repeat-y;
 }
 
 h1 {
@@ -9,6 +17,14 @@ h1 {
     letter-spacing: 2px;
     margin-top: 80px;
     text-align: center;
+        background: -webkit-linear-gradient(
+        45deg,
+       hsl(0, 100%, 61%),
+        rgb(255, 253, 159)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 h2 {
     color: white;
@@ -22,7 +38,7 @@ h2 {
 }
 
 .content {
-    background: #fff;
+    background: rgb(255, 255, 255);
     max-width: 960px;
     margin: 30px auto;
     padding: 20px 30px;
