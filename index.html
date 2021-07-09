@@ -12,12 +12,18 @@
         <title>Cafe</title>
     </head>
     <body>
-        <h1>Cloud Cafe</h1>
+        <h1>FireStore Cafe</h1>
 
         <div class="content">
-            <form id="add-cafe-form"></form>
+            <div class="msg">
+                <h2>Cafe has been successfully added!</h2>
+            </div>
+            <form id="add-cafe-form">
+                <input type="text" name="name" placeholder="Cafe name" />
+                <input type="text" name="city" placeholder="Cafe city" />
+                <button type="submit">Add cafe</button>
+            </form>
             <ul id="cafe-list"></ul>
         </div>
     </body>
-
 </html>
